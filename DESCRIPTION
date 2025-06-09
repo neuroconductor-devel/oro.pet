@@ -5,17 +5,19 @@ Title: Rigorous - Positron Emission Tomography
 Author: Brandon Whitcher
 Maintainer: Brandon Whitcher <bwhitcher@gmail.com>
 Description: Image analysis techniques for positron emission tomography
-    (PET) that form part of the Rigorous Analytics bundle.
-Depends:
-    R (>= 2.14.0)
-Imports:
-    methods,
-    oro.dicom (>= 0.4.0),
-    oro.nifti (>= 0.4.0),
-    utils,
-    minpack.lm,
-    msm    
+        (PET) that form part of the Rigorous Analytics bundle.
+Depends: R (>= 2.14.0)
+Imports: methods, oro.dicom (>= 0.4.0), oro.nifti (>= 0.4.0), utils,
+        minpack.lm, msm
 License: BSD_3_clause + file LICENSE
 URL: http://rig.oro.us.com, http://rigorousanalytics.blogspot.com
 RoxygenNote: 7.2.1
 Encoding: UTF-8
+Repository: Neuroconductor-Devel
+Suggests: 
+    covr,
+    testthat
+Remotes: 
+    neuroconductor-devel/oro.nifti@517ce5312094bf1ecee49bd09024769d3e5d2daa,
+    neuroconductor-devel/oro.dicom@00b9b71a5f8100cd39daa99e5e6b58e31ee54849
+biocViews: 
